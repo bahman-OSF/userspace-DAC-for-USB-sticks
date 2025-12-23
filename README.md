@@ -17,10 +17,17 @@
 3. Copy the udev rule:
    ```bash
    sudo cp 99-usb-block.rules /etc/udev/rules.d/
+   
 4. create the whitelist file and add vendor ID of USB sticks to be allowed:
    ```bash
    vim /etc/usb_whitelist.conf
+   
 4. Reload udev rules:
    ```bash
    sudo udevadm control --reload-rules
-   sudo udevadm trigger 
+   sudo udevadm trigger
+
+5. monitor logs:
+   ```bash
+   tail -f /var/log/usb_blocker.log
+   
