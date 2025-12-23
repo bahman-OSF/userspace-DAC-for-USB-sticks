@@ -1,5 +1,5 @@
 
-##USB Blocker is a lightweight security tool for Linux systems that prevents unauthorized USB mass‑storage devices (like flash drives or external hard disks) from being mounted.
+## USB Blocker is a lightweight security tool for Linux systems that prevents unauthorized USB mass‑storage devices (like flash drives or external hard disks) from being mounted.
 It enforces a default‑deny policy: all USB storage devices are blocked unless their Vendor ID is explicitly whitelisted.
 
 ## Installation
